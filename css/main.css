@@ -402,21 +402,27 @@ template {
   font-family: 'Lifehack-Medium';
   src: url("../fonts/Lifehack-Medium.woff") format("woff");
   font-weight: normal;
+
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu';
+
   src: url("../fonts/Ubuntu-Light.woff") format("woff");
   font-weight: 300;
+
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu';
+
   src: url("../fonts/Ubuntu-Medium.woff") format("woff");
+
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
+
   font-family: 'Ubuntu';
   src: url("../fonts/ubuntu-b-webfont.woff") format("woff");
   font-weight: bold;
@@ -1076,11 +1082,13 @@ footer {
   left: 10%; }
 
 .nav__list {
+
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1119,14 +1127,18 @@ footer {
 .order {
   background: url("../img/bg/order.jpg") 50% no-repeat;
   background-size: cover;
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+
+
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
+
   .order .section__title {
     text-align: center; }
 
@@ -1159,10 +1171,12 @@ footer {
 
 .order__form-row {
   margin-bottom: 1rem;
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+
 
 .order__form-label {
   margin-bottom: 1.0625rem;
@@ -1204,10 +1218,12 @@ footer {
   white-space: nowrap;
   margin-right: 1.25rem;
   cursor: pointer;
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1334,6 +1350,7 @@ footer {
 
 .reviews__list {
   width: 100%;
+
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1344,6 +1361,7 @@ footer {
   flex-wrap: wrap; }
 
 .reviews__item {
+
   width: 25%;
   height: 50%;
   position: relative; }
@@ -1367,18 +1385,22 @@ footer {
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s; }
+
   .review:hover .review__hover {
     -webkit-transform: translate(-50%, -50%) scale(1);
     -ms-transform: translate(-50%, -50%) scale(1);
     transform: translate(-50%, -50%) scale(1);
     opacity: 1; }
+
   .review:hover:after {
     background: rgba(20, 20, 20, 0.7); }
+
 
 .review__photo {
   width: 100%;
   height: 100%;
   background-size: cover;
+
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
@@ -1390,10 +1412,12 @@ footer {
   left: 50%;
   width: 100%;
   height: 100%;
+
   -webkit-transform: translate(-50%, -50%) scale(0.7);
   -ms-transform: translate(-50%, -50%) scale(0.7);
   transform: translate(-50%, -50%) scale(0.7);
   opacity: 0;
+
   padding: 17% 12% 0;
   -webkit-transition: .3s;
   -o-transition: .3s;
@@ -1623,3 +1647,4 @@ footer {
   font-size: 0.875rem;
   line-height: 1.8;
   text-align: center; }
+
